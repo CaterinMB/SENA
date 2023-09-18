@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Caterin Badillo">
+    <meta name="description" content="Conoce a CASMUBA para conseguir lo que quieres y necesitas para la casa.">
+    <link rel="stylesheet" href="Casmuba.css" type="text/css">
+    <title>CASMUBA</title>
+</head>
+<body>
+    <header>
+        <h1><img src="ImagenesC/Casmuba.png" alt="CASMUBA" width="100" height="100"></h1>
+        <h1>CASMUBA</h1>
+        <h1>"La vida es como una montaña rusa, con subidas y bajadas, pero que eso no te impida disfrutarla."</h1>
+    </header>
+    <nav>
+        <div>
+            <a href="index.html"><button>INICIO</button></a>
+            <a href="know_us.html"><button>SOMOS</button></a>
+            <div class="menu">
+                <button>TIENDA</button>
+                <div class="menu-content">
+                    <a href="Cubrelecho.html">Cubrelecho</a>
+                    <a href="Cobijas.html">Cobijas</a>
+                    <a href="Sabanas.html">Sabanas</a>
+                    <a href="Toallas.html">Toallas</a>
+                </div>
+            </div>
+            <a href="Contact.html"><button>CONTACTO</button></a>
+        </div>
+        <div><input type="text" id="busca" name="busca" minlength="1" maxlength="30"><input type="submit" value="buscar" name="Buscar" id="buscar"></div>
+    </nav><br>
+    <section>
+        <form>
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <p>
+                    <label>Nombre: *</label><br>
+                    <input type="text" id="nombre" name="nombre" required minlength="1" maxlength="30"placeholder="Digite su nombre...">
+                </p>
+                <p>
+                    <label>Apellidos: *</label><br>
+                    <input type="text" id="apellido" name="apellidos" required minlength="1" maxlength="60" placeholder="Digite sus apellidos...">
+                </p>
+                <p>
+                    <label>Tipo de documento *</label><br>
+                    <select name="documento" id="documento" required>
+                        <option value="" selected>Documento</option>
+                        <option value="cc">Cedula de Ciudadania</option>
+                        <option value="ce">Cedula Extrangera</option>
+                        <option value="ps">Nª de Pasaporte</option>
+                        <option value="ti">Tarjeta de identidad</option>
+                    </select>
+                </p>
+                <p>
+                    <label>Ingrese su documento: *</label><br>
+                    <input type="number" id="dni" name="dni" required placeholder="Digite Documento..." minlength="1" maxlength="15">
+                </p>
+                <p>
+                    <label>Celular *</label><br>
+                    <input type="number" name="celular" id="celular" required placeholder="Digite numero celular..." minlength="1" maxlength="15">
+                </p>
+                <p>
+                    <label>Telefono *</label><br>
+                    <input type="number" name="celular" id="celular" required placeholder="Digite numero celular..." minlength="1" maxlength="15">
+                </p>
+                <p>
+                    <label>Ingrese su correo electronico: *</label><br>
+                    <input type="email" id="email" name="email" required placeholder="email@email.com">
+                </p>
+                <p>
+                    <label>Foto de perfil: *</label><br>
+                    <input type="file" name="foto" id="foto" accept="image/*" required>
+                </p>
+                <p>
+                    <label>Fecha de Nacimiento: *</label><br>
+                    <input type="date" id="fecha" name="fecha" step="1" required>
+                </p>
+                <p>
+                    <label>Sexo: </label><br>
+                    <input type="radio" id="mujer" name="sexo" value="mujer">Mujer
+                    <input type="radio" id="hombre" name="sexo" value="hombre">Hombre
+                    <input type="radio" id="np" name="sexo" value="np">Otro
+                </p>
+                <p>
+                    <label>Libreta Militar: </label><br>
+                    <input type="radio" id="si" name="opcion" value="si">SI
+                    <input type="radio" id="no" name="opcion" value="no">NO
+                </p>
+                <p>
+                    <label>Adjunte Certificado Libreta: </label><br>
+                    <input type="file" name="foto" id="foto" accept=".pdf,.jpg,.png" multiple>
+                </p>
+                <p>
+                    <label>Cuento te gusto la plataforma? </label><br>
+                    <label>0</label>
+                    <input type="range" id="rango" name="rango" value="50" min="0" max="100">
+                    <label>100</label>
+                </p><p></p>
+                <p>
+                    <label>Ingrese sugerencias: </label>
+                    <br>
+                    <textarea name="desc" id="desc" cols="30" rows="10" placeholder="Ingrese la sugerencia..."></textarea>
+                </p>
+            </fieldset>
+            <br><br>
+            <input type="submit" value="Enviar" name="Enviar" id="Enviar">
+            <input type="reset" value="Borrar" name="Borrar" id="Borrar">
+            <br><br>
+            <fieldset>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.2477611542213!2d-75.5549116862438!3d6.23103299548953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e442841bec05ced%3A0xd0a64797147836d8!2sUrbanizaci%C3%B3n%20parques%20de%20Catalu%C3%B1a!5e0!3m2!1ses!2sco!4v1664422444743!5m2!1ses!2sco" width="500" height="370" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p>Direccion: Urbanizacion Parquez de Cataluña <br>Casa 156 <br>Medellin Antioquia <br>Telefono: 604-5823940 <br>Celular: 311-2662541</p>
+                <p>
+                    <h2>HORARIOS DE ATENCION</h2>
+                    <p>De Lunes a Viernes: <br>8am - 12m y 1pm - 5pm <br>Sabados: <br>8am - 1pm</p>
+                </p>
+            </fieldset>
+        </form>
+    </section>
+    <br><br><br>
+    <footer>
+        <p>Author: @BadilloC</p>
+        <p><a href="badillomkatherine@gmail.com"><img src="ImagenesC/mail.png" alt="Correo electronico" width="30" height="30"></a><a href="https://www.facebook.com/Casmuba"><img src="ImagenesC/face.png" alt="facebook" width="35" height="30"></a><a href="https://whatsapp.com/dl/"><img src="ImagenesC/wpp.png" alt="whatsapp" width="35" height="30"></a><a href="https://www.instagram.com/katherinembadillo?r=nametag"><img src="ImagenesC/igg.png" alt="instagram" width="35" height="30"></a></p>
+    </footer>
+</body>
+</html>

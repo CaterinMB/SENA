@@ -1,0 +1,37 @@
+Para un proyecto de conexion con base de datos ejecutar en la terminar del proyecto
+flutter pub add sqflite
+
+Para un poryecto de correo ejecutar en la terminar del proyecto
+flutter pub add mailer
+
+Para un proyecto de conexion con base de datos no relacional ejecutar en la terminar del proyecto
+flutter pub add cloud-firestore
+
+
+
+
+Definiciones.
+
+Dar: Lenguaje aparte
+flutter : Framework
+
+stateless: No tiene estado y nunca cambia.
+sin estado: text, scaffold
+statefull: tiene estado y puede cambiar.
+estado: floatingaction, dropdownbutton, bottonnavigatorbar
+
+appbar: encabezado
+body: cuerpo
+
+layout: Forma de mostrar los elementos: column y row
+materialapp: Coherente de todas las plataformas, apariencia y comportamiento de elementos
+children: Mostrar varios elementos en un mismo cuerpo
+navigator push: Nueva ventana
+navigator pop: Ventana anterior
+botton navigator bar: Con estado para moverse entre pesatañas.
+checkbox: Uno o varios elementos, con estado
+redio botton: Una solo entre varios, con estado
+form: globalkey, textForm, form
+
+SqFlite: SqLite base de datos
+firebase: google, nosql
